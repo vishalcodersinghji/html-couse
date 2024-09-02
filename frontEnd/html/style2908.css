@@ -1,0 +1,71 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.box-1{
+    height: 200px;
+    background: red;
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+}
+.box-1 h1{
+    background-color: wheat;
+    margin-top: 10px;
+    color: black;
+    width: fit-content;
+  
+}
+.box-2{
+    width: 400px;
+    height: 200px;
+    background: rebeccapurple;
+    margin-top: 20px;
+    border: 2px solid black;
+} */
+
+/* ................................................................. */
+
+/* h1::before{
+    content: " Mr";
+    color: red;
+}
+h1::after{
+    content: " vishal";
+}
+h2{
+    outline: 10px solid red;
+    border: 10px solid black;
+} */
+
+/* ..................................................... */
+* {
+  margin: 0;
+  padding: 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+tr,td {
+  border: 1px solid;
+  padding: 20px;
+}
+thead tr {
+  background: black;
+  color: white;
+}
+tbody tr {
+  background: gray;
+}
+tbody tr:nth-child(1):hover {
+  background-color: red;
+}
+tbody tr:nth-child(2):hover {
+  background-color: rgb(235, 175, 10);
+}
+tbody tr:nth-child(3):hover {
+  background-color: rgb(145, 214, 89);
+}

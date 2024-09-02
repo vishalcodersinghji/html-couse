@@ -1,0 +1,25 @@
+a:visited{
+    color: red;
+}
+a:active{
+    color: palevioletred;
+}
+a:hover{
+    color: rgb(26, 23, 24);
+}
+body{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,81,81,1) 25%, rgba(255,244,5,1) 59%, rgba(17,17,17,1) 100%);
+}
+
+.box-1{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,81,81,1) 25%, rgba(24,22,218,0.42638305322128855) 59%, rgba(17,17,17,1) 100%);;
+}
+.box-2{
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(89,81,81,1) 25%, rgba(24,22,218,0.42638305322128855) 59%, rgba(17,17,17,1) 100%);;
+
+}
