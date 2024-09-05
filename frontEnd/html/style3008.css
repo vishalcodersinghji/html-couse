@@ -3,8 +3,8 @@
     padding: 0;
   }
   table{
-    border-collapse: separate;
-  border-spacing: 15px;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
   }
   thead tr{
     background-color: aqua;
