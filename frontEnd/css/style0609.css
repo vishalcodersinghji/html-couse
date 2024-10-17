@@ -1,0 +1,56 @@
+/* 
+type of position
+
+1) relative
+2) absolute
+3) static
+4) fixed
+5) sticky
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(165, 146, 146);
+    position: relative;
+}
+body{
+    height: 300vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.common{
+    width: 100px;
+    height: 100px;
+}
+.common:nth-child(1){
+    background-color: aqua;
+    /* position: relative; */
+    /* top: 100px; */
+    position: sticky;
+    top: 40px;
+  
+}
+.common:nth-child(2){
+    background-color: rgb(16, 19, 19);
+    position: relative;
+    /* z-index: -1;  */
+  
+ 
+}
+.common:nth-child(3){
+    background-color: rgb(98, 73, 47);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.common:nth-child(4){
+    background-color: rgb(131, 17, 40);
+  position: fixed;
+  right: 0;
+  bottom: 50%;
+}

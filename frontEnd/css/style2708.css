@@ -1,0 +1,22 @@
+/* text:hover{
+    color: rgb(255, 0, 0);
+} */
+
+.box {
+  background: rgb(169, 166, 151);
+  width: 400px;
+  height: 400px;
+}
+.box:hover {
+  background-image: url(../img/resize.jpeg);
+  background-color: aquamarine;
+  border: 3px solid;
+}
+.box:hover .text {
+  color: brown;
+  margin-left: 200px; 
+}
+.box:hover a{
+  text-decoration: none;
+ 
+}

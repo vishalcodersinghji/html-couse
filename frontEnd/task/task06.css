@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  padding: 20px;
+}
+nav {
+  background-color: blue;
+  display: flex;
+  color: white;
+  /* height: 80px; */
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+}
+.ican ul {
+  gap: 50px;
+  display: flex;
+  list-style: none;
+}
+.sign-in a {
+  color: white;
+  text-decoration: none;
+  background-color: #24dbc5;
+  padding: 8px;
+  border-radius: 30px;
+}
+.secondline {
+  background-color: white;
+  color: blue;
+  box-shadow: 0px 0px 5px gray;
+}
+.sign-in-main a {
+  color: black;
+  border-radius: 20px;
+  padding: 7px;
+}
+.sign-in-main a:nth-child(2) {
+  border-radius: 30px;
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 7px;
+}

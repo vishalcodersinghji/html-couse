@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+.spinner {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border: 10px solid red;
+  border-radius: 50%;
+  animation: spin 2s linear infinite;
+  border-bottom: 10px solid yellow;
+  border-top: 10px solid rgb(154, 154, 117);
+  border-left: 10px solid rgb(255, 0, 0);
+  border-right: 10px solid rgb(179, 179, 168);
+}
+@keyframes spin {
+  0%{
+    transform: rotate(0deg) scale(1);
+  
+  }
+  100% {
+    transform: rotate(360deg) scale(20);
+  
+  }
+}
+
+/* .......................................................... */
+
+@media (min-width: 400px) {
+  .spinner {
+    background-color: rgb(43, 185, 187);
+  }
+}
+@media (min-width: 600px) {
+  .spinner {
+    background-color: rgb(188, 148, 148);
+  }
+}
