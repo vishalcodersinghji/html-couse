@@ -7,6 +7,8 @@ let a = "Hey Guys Aman This Side Grras"
 // console.log(a.length);
 
 // toLowerCase
+
+
 // document.write(a.toLowerCase() + "<br>");
 
 //  toUperCase
